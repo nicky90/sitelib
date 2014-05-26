@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}Oracle Library System{% endblock %}
+
+{% block content %}
+Content!
+{% endblock %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>{% block title %}{% endblock %}</title>
+  </head>
+  <body>
+    <header>
+      <p><span>Welcome to Oracle Library System.</span><span>DateTime is here</span></p>
+    </header>
+    {% block content %}{% endblock %}
+  </body>
+  <footer>
+    <p><span><small>Powered by Oracle HCTS Team.</span><span>Contact US: <a href="#">Email</a></span></small></p>
+  </footer>
+</html>
